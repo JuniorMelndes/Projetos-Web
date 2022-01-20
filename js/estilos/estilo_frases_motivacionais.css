@@ -1,0 +1,31 @@
+#container{
+	background: lightgray;
+	width: 1080px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#titulo{
+	padding-top: 30px;
+	padding-left: 10px;
+	color: green;
+	border-bottom: 1px black solid;
+}
+
+#frases{
+	font-size: 40px;
+	padding-left: 10px;
+	border-bottom: 1px black solid;
+}
+
+#butao{
+	padding-top: 40px;
+	padding-left: 25px;
+}
+
+#butao button{
+	width: 100px;
+	height: 50px;
+	background: green;
+	color: white;
+}
