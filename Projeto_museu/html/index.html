@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Museu Nacional</title>
+	<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="../../CSS_avancado/estilos/normalize.css">
+	<!-- Estilo -->
+	<link rel="stylesheet" type="text/css" href="../estilos/estilo.css">
+
+</head>
+<body>
+	<div id="container"> <!-- Inicio Container-->
+		<header>
+			<div id="logo">
+				<h1><a href="">Museu Nacional</a></h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Exposições</a></li>
+					<li><a href="">Pesquisa</a></li>
+					<li><a href="">Acervo</a></li>
+					<li><a href="">Vídeos</a></li>
+					<li><a href="">Fotos</a></li>
+					<li><a href="">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="principal">
+			<div id="conteudo"><!-- Inicio conteudo-->
+				<section id="capa">
+					<img src="../img/museu.png">
+				</section>
+
+				<section id="postagem">
+					<article id="video">
+						<h3>Conheça o museu</h3>
+						<iframe width="310" height="170" src="https://www.youtube.com/embed/7rocbjaDBEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</article>
+					<article id="mapa">
+						<h3>Encontre o museu</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.081454332348!2d-35.886810085945264!3d-7.23154997302441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ac1e431731c485%3A0x8b389f1d2ec1079!2sBoneco%20Bicicletas!5e0!3m2!1spt-PT!2sbr!4v1641407409541!5m2!1spt-PT!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</article>
+
+					<article id="exposicao">
+						<h3>Exposições</h3>
+						<ul>
+							<li>
+								<a href="">Mula sem-cabeça</a>
+							</li>
+							<li>
+								<a href="">Chupa cabra</a>
+							</li>
+							<li>
+								<a href="">Boto cor de roça</a>
+							</li>
+							<li>
+								<a href="">Saci</a>
+							</li>
+							<li>
+								<a href="">Zé do picadinho</a>
+							</li>
+							<li>
+								<a href=""><strong>Veja todos (69)</strong></a>
+							</li>
+						</ul>
+					</article>
+					<article id="historia">
+						<h3>200 anos de história</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a cursus quam. Donec at dolor augue. Integer eleifend sapien eget magna malesuada auctor. Nam a arcu dolor. Duis et ultricies lectus. Donec semper eget purus id feugiat. Cras nec iaculis leo. Quisque euismod ligula in velit tempus, in placerat ex hendrerit. Etiam et turpis ac tellus tincidunt interdum. Pellentesque facilisis viverra euismod.
+						</p>
+						<a href=""><strong>Leia mais!</strong></a>
+					</article>
+				</section>
+			</div><!-- Fim conteudo-->
+			
+			<aside><!-- Começo Area lateral-->
+				<section id="depoimento">
+					<img src="../img/depoimento.png">
+				</section>
+				<section id="visita">
+					<h4>Faça uma visita</h4>
+					<form>
+						<fieldset>
+							<legend>Selecione uma data</legend>
+							
+							<label for="data">Data</label>
+							<input class="campo" type="text" id="data" value="dd/mm/aaaa">
+							
+							<label for="qtd">Qtd de pessoas</label>
+							<input class="campo" style="width: 25px" type="text" id="qtd" value="1">
+						</fieldset>
+
+						<input class="botao" type="submit" value="Verificar disponibilidade">
+					</form>
+				</section>
+				<section id="galeria">
+					<h1>Galeria de fotos</h1>
+					<a href="">
+						<img src="../img/imagem1.jpg">
+					</a>
+					<a href="">
+						<img src="../img/imagem2.jpg">
+					</a>
+					<a href="">
+						<img src="../img/imagem3.jpg">
+					</a>
+					<a href="">
+						<img src="../img/imagem4.jpg">
+					</a>					
+				</section>
+			</aside> <!-- Fim Area lateral-->
+			<div style="clear: both;"></div>
+			<footer id="rodape">
+				<p>
+					<a href="">Home</a>
+					<a href="">Exposições</a>
+					<a href="">Pesquisa</a>
+					<a href="">Acervo</a>
+					<a href="">Vídeos</a>
+					<a href="">Fotos</a>
+					<a href="">Contato</a>
+				</p>
+				<p>
+					2019 <a href=""> Museu Nacional </a> - &copy; Copyright 1999-2021 Tudo nosso
+				</p>
+			</footer>
+		</div>
+
+
+	</div><!-- fim Container-->
+</body>
+</html>
